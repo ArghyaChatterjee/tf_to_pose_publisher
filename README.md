@@ -1,7 +1,7 @@
 # tf_to_pose_publisher
 This repository contains code for publishing pose from tf tree. 
 
-## Launch the file 
+## Launch
 ```
 roslaunch tf_to_pose_publisher tf_to_pose_publisher.launch
 ```
