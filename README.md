@@ -9,8 +9,15 @@ roslaunch tf_to_pose_publisher tf_to_pose_publisher.launch
 - from frame: `odom`
 
 - to frame: `base_link`
+- Publications: 
+ * /robot_pose [geometry_msgs/PoseWithCovarianceStamped]
+ * /rosout [rosgraph_msgs/Log]
 
-## Enquire the rosnode
+- Subscriptions: 
+ * /tf [unknown type]
+ * /tf_static [unknown type]
+
+## Enquire from rosnode
 ```
 $rosnode info /publish_pose_from_tf
 --------------------------------------------------------------------------------
