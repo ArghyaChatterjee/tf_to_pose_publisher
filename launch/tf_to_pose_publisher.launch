@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+<!-- Publish tf 'base_footprint' as pose.-->
+  <node pkg="tf_to_pose_publisher" type="tf_to_pose_publisher.py" name="publish_pose_from_tf">
+    <param name="from_frame" type="string" value="odom"/>
+    <param name="to_frame" type="string" value="base_link"/>
+  </node>
+</launch>
