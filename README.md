@@ -1,6 +1,13 @@
 # tf_to_pose_publisher
 This repository contains code for publishing pose from tf tree. 
-
+## Download and Compile
+```
+cd ~/catkin_ws/src
+git clone https://github.com/ArghyaChatterjee/tf_to_pose_publisher.git
+chmod +x tf_to_pose_publisher.py
+cd ~/catkin_ws
+catkin_make
+```
 ## Launch
 ```
 roslaunch tf_to_pose_publisher tf_to_pose_publisher.launch
