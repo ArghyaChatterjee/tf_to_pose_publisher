@@ -5,7 +5,7 @@ This repository contains code for publishing pose from tf tree.
 ```
 roslaunch tf_to_pose_publisher tf_to_pose_publisher.launch
 ```
-## parameters
+## Parameters
 - from frame: `odom`
 
 - to frame: `base_link`
